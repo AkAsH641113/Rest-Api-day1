@@ -1,0 +1,66 @@
+/* Updated styles with awesome fonts and styles */
+
+/* Body styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0; /* Light gray background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .App {
+    text-align: center;
+  }
+  
+  /* Logo styles */
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    /* You can add custom styles for the logo if needed */
+  }
+  
+  /* Animation for logo */
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  /* Header styles */
+  .App-header {
+    background-color: #3498db; /* A vibrant blue background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(16px + 2vmin); /* Larger font size */
+    color: #fff; /* White text color */
+    font-family: 'Raleway', sans-serif; /* New font family */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for a cool effect */
+  }
+  
+  /* Link styles */
+  .App-link {
+    color: #e74c3c; /* A bold red link color */
+    text-decoration: none; /* Remove underlines */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Hover effect for links */
+  .App-link:hover {
+    color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Keyframes for logo animation */
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
